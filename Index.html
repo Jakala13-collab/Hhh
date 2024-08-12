@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Blog</h1>
+    </header>
+    <main>
+        <section class="imagem">
+            <img src="imagem1.jpg" alt="Imagem 1">
+        </section>
+        <section class="texto">
+            <h2>Título do Artigo</h2>
+            <p>Texto do artigo...</p>
+        </section>
+    </main>
+</body>
+</html>
+<form action="search.php" method="get">
+    <input type="text" name="q" placeholder="Pesquisar...">
+    <input type="submit" value="Buscar">
+</form>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="imagem" id="imagem">
+    <input type="submit" value="Enviar">
+</form>
